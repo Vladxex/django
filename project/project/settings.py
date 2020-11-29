@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     #more apps
     'django.contrib.sites',
     'django.contrib.flatpages',
+    'Fpages',
 ]
 
 SITE_ID = 1
@@ -61,6 +62,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
+
 ]
 
 ROOT_URLCONF = 'project.urls'
